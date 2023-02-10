@@ -1,3 +1,15 @@
+import Grid from "./components/Grid";
+import Nav from "./components/Nav";
+import Description from "./components/Description";
+
 export default function App() {
-  return <h1>Grid Fibonacci Sequence</h1>;
+  return (
+    <div className="max-w-7xl mx-auto p-8">
+      <Nav />
+      <main>
+        <Description />
+        <Grid />
+      </main>
+    </div>
+  );
 }
